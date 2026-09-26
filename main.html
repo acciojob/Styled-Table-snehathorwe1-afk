@@ -4,12 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- add table here -->
+    <title>Game Stats</title>
 
-        
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7fb;
+            padding: 40px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #1e3a8a;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        thead {
+            background-color: #1e3a8a;
+            color: white;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: center;
+            border: 1px solid #dbe3ef;
+        }
+
+        th {
+            font-size: 16px;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f0f5ff;
+        }
+
+        tbody tr:hover {
+            background-color: #dbeafe;
+        }
+
+        td {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Game Stats</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>KILLS</th>
+                <th>SAVED</th>
+                <th>DEATHS</th>
+                <th>REVIVES</th>
+                <th>WIN</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Hackerman</td>
+                <td>10</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>Cool Doggo</td>
+                <td>13</td>
+                <td>4</td>
+                <td>8</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>Andrews</td>
+                <td>19</td>
+                <td>2</td>
+                <td>10</td>
+                <td>11</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>Strawberry</td>
+                <td>2</td>
+                <td>9</td>
+                <td>3</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
 </body>
 </html>
